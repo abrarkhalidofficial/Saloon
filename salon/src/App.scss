@@ -349,13 +349,14 @@ body::-webkit-scrollbar-track {
   font-family: "El Messiri", sans-serif;
   font-weight: 500;
   color: #000;
+  padding-left: 13px;
 }
 
 .loginpage__content__info {
-  font-size: 16px;
+  font-size: 18px;
   color: #808080;
   width: 90%;
-  padding-left: 5px;
+  padding: 1em;
 }
 .loginpage__content__form {
   width: 80%;
@@ -365,11 +366,18 @@ body::-webkit-scrollbar-track {
 }
 .loginpage__content__form input {
   width: 60%;
-  padding: 12px 20px;
+  padding: 12px 25px;
   margin: 8px 0;
+  font-size: 16px;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid #f5f5f5;
+  color: #7b7b7b;
+  background-color: #f5f5f5;
   border-radius: 50px;
+  outline: none;
+}
+.loginpage__content__form input:focus {
+  border: 1px solid #6fa66b;
 }
 
 @media (max-width: 1700px) {
