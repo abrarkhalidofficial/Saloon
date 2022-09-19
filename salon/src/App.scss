@@ -30,6 +30,8 @@ body::-webkit-scrollbar-track {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 .navbar {
   display: flex;
@@ -67,6 +69,8 @@ body::-webkit-scrollbar-track {
   display: flex;
   padding-top: 5em;
   padding-bottom: 5em;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 .discover__left {
   width: 20%;
@@ -91,7 +95,7 @@ body::-webkit-scrollbar-track {
   height: 450px;
 }
 .discover__content__heading {
-  width: 80%;
+  width: 65%;
   font-size: 50px;
   font-family: "El Messiri", sans-serif;
   font-weight: 500;
@@ -138,6 +142,8 @@ body::-webkit-scrollbar-track {
   height: 350px;
   margin-top: 5em;
   margin-bottom: 5em;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 .atmosphere__left {
   width: 20%;
@@ -189,6 +195,8 @@ body::-webkit-scrollbar-track {
   align-items: center;
   padding-top: 5em;
   padding-bottom: 5em;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 .service__left {
   width: 45%;
@@ -315,4 +323,79 @@ body::-webkit-scrollbar-track {
 }
 .footer__social__link {
   padding: 2em;
+}
+.loginpage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.loginpage__left {
+  width: 15%;
+}
+.loginpage__content {
+  width: 40%;
+}
+.loginpage__right {
+  width: 50%;
+}
+.loginpage__content__heading {
+  width: 90%;
+  font-size: 50px;
+  font-family: "El Messiri", sans-serif;
+  font-weight: 500;
+  color: #000;
+}
+
+.loginpage__content__info {
+  font-size: 16px;
+  color: #808080;
+  width: 90%;
+  padding-left: 5px;
+}
+.loginpage__content__form {
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.loginpage__content__form input {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+
+@media (max-width: 1700px) {
+  .discover__content__heading {
+    width: 75%;
+  }
+  .discover__content__heading__and__info {
+    padding-left: 2em;
+  }
+}
+@media (max-width: 1600px) {
+  .discover__content__heading {
+    width: 90%;
+  }
+  .discover__content__info {
+    width: 80%;
+  }
+}
+@media (max-width: 1600px) {
+  .discover__content__heading__and__info {
+    padding-top: 4em;
+  }
+  .discover__content__heading {
+    width: 100%;
+  }
+  .discover__content__info {
+    width: 95%;
+  }
 }

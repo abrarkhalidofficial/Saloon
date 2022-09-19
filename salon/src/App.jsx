@@ -9,6 +9,8 @@ import atmosphereright from "../src/assets/atmosphere-right.png";
 import atmospherecontent from "../src/assets/atmosphere-content.png";
 import service from "../src/assets/services.png";
 import footerleft from "../src/assets/footer-left.png";
+import loginpageleft from "../src/assets/login-left.png";
+import loginright from "../src/assets/login-right.png";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -127,6 +129,41 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section className="loginpage">
+        <div className="loginpage__left">
+          <div className="loginpage__left__img">
+            <img src={loginpageleft} alt="loginpageleft" />
+          </div>
+        </div>
+        <div className="loginpage__content">
+          <div className="loginpage__content__heading">Welcome Back</div>
+          <div className="loginpage__content__info">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s.
+          </div>
+          <div className="loginpage__content__form">
+            <input type="email" name="email" id="email" placeholder="Email" />
+          </div>
+          <div className="loginpage__content__form">
+            <input
+              type="password"
+              name="text"
+              id="text"
+              placeholder="Password"
+            />
+          </div>
+          <div className="loginpage__content__button">
+            <button>Sign Up</button>
+          </div>
+        </div>
+        <div className="loginpage__right">
+          <div className="loginpage__right__img">
+            <img src={loginright} alt="loginright" />
+          </div>
+        </div>
+      </section>
       <section className="footer" id="Contact">
         <div className="footer__svg">
           <svg
@@ -153,7 +190,6 @@ function App() {
             and scrambled it to make a type specimen book.
           </div>
         </div>
-
         <div className="footer__bottom">
           <div className="all__footer__bottom__con">
             <div className="footer__bottom__svg">
