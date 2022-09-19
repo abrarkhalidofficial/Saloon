@@ -197,6 +197,7 @@ body::-webkit-scrollbar-track {
   padding-bottom: 5em;
   max-width: 1920px;
   margin: 0 auto;
+  margin-top: 10em;
 }
 .service__left {
   width: 45%;
@@ -341,7 +342,7 @@ body::-webkit-scrollbar-track {
   width: 40%;
 }
 .loginpage__right {
-  width: 50%;
+  width: 45%;
 }
 .loginpage__content__heading {
   width: 90%;
@@ -379,7 +380,36 @@ body::-webkit-scrollbar-track {
 .loginpage__content__form input:focus {
   border: 1px solid #6fa66b;
 }
-
+.loginpage__content__button {
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2em;
+}
+.loginpage__content__button button {
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  color: white;
+  background-color: #6fa66b;
+  padding: 13px 3.5em;
+  border: none;
+  margin-top: 10px;
+}
+.loginpage__right__img img {
+  height: 500px;
+}
+.loginpage__content__forget__tag {
+  width: 80%;
+  margin-top: 2em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.loginpage__content__forget__tag a {
+  color: #000;
+}
 @media (max-width: 1700px) {
   .discover__content__heading {
     width: 75%;

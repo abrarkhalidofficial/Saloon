@@ -157,6 +157,9 @@ function App() {
           <div className="loginpage__content__button">
             <button>Sign Up</button>
           </div>
+          <div className="loginpage__content__forget__tag">
+            <a href="#">Don’t Have an Account? Sign Up</a>
+          </div>
         </div>
         <div className="loginpage__right">
           <div className="loginpage__right__img">
