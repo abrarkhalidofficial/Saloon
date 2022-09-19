@@ -201,10 +201,10 @@ body::-webkit-scrollbar-track {
 }
 .service__left {
   width: 45%;
-  padding-left: 9em;
+  padding-left: 3em;
 }
 .service__left__img img {
-  height: 500px;
+  height: 550px;
 }
 .service__right {
   width: 50%;
@@ -234,6 +234,9 @@ body::-webkit-scrollbar-track {
   padding: 13px 35px;
   border: none;
   margin-top: 1em;
+}
+.service__right__button button:hover {
+  background-color: #000;
 }
 
 .footer {

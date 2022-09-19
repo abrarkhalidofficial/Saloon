@@ -11,6 +11,8 @@ import service from "../src/assets/services.png";
 import footerleft from "../src/assets/footer-left.png";
 import loginpageleft from "../src/assets/login-left.png";
 import loginright from "../src/assets/login-right.png";
+import signuppageleft from "../src/assets/signup-left.png";
+import signuppageright from "../src/assets/signup-right.png";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -164,6 +166,28 @@ function App() {
         <div className="loginpage__right">
           <div className="loginpage__right__img">
             <img src={loginright} alt="loginright" />
+          </div>
+        </div>
+      </section>
+      <section className="signuppage">
+        <div className="signuppage__left">
+          <div className="signuppage__left__img">
+            <img src={signuppageleft} alt="signuppageleft" />
+          </div>
+        </div>
+        <div className="signuppage__right">
+          <div className="signuppage__right__heading__img">
+            <div className="signuppage__right__heading">
+              Be a part of Saloon Family
+            </div>
+            <div className="signuppage__right__img">
+              <img src={signuppageright} alt="signupright" />
+            </div>
+          </div>
+          <div className="signuppage__right__info">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s.
           </div>
         </div>
       </section>
