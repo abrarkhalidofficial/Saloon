@@ -252,14 +252,10 @@ body::-webkit-scrollbar-track {
   color: white;
   position: relative;
   background-image: url(./assets/footer-banner.png);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
 }
 .footer__svg {
   margin-bottom: 2em;
+  margin-top: 2em;
 }
 .footer__lorem {
   margin: 1em;
@@ -412,6 +408,113 @@ body::-webkit-scrollbar-track {
 }
 .loginpage__content__forget__tag a {
   color: #000;
+}
+.loginpage__content__forget__tag__span {
+  color: #000;
+  font-weight: bold;
+}
+.signuppage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.signuppage__left__img img {
+  height: 600px;
+}
+.signuppage__right {
+  padding: 3em;
+}
+.signuppage__right__heading__img {
+  position: relative;
+  display: flex;
+}
+.signuppage__right__heading {
+  width: 40%;
+  font-size: 50px;
+  font-family: "El Messiri", sans-serif;
+  font-weight: 500;
+  color: #000;
+  padding-left: 13px;
+  line-height: 1.2;
+}
+.signuppage__right__img {
+  position: absolute;
+  right: 55%;
+  top: -28%;
+}
+.signuppage__right__img img {
+  height: 160px;
+}
+.signuppage__right__info {
+  font-size: 18px;
+  color: #808080;
+  width: 70%;
+  padding: 1em;
+}
+.signuppage__forms {
+  display: flex;
+  // margin-left: 1em;
+}
+.signuppage__content__form {
+  // width: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+  margin-left: 1em;
+}
+.signuppage__content__form input {
+  // width: 90%;
+  padding: 12px 50px;
+  margin: 8px 0;
+  font-size: 16px;
+  display: inline-block;
+  border: 1px solid #f5f5f5;
+  color: #7b7b7b;
+  background-color: #f5f5f5;
+  border-radius: 50px;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+.signuppage__content__form input:focus {
+  border: 1px solid #6fa66b;
+}
+.signuppage__content__button {
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 210m;
+}
+.signuppage__content__button button {
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  color: white;
+  background-color: #6fa66b;
+  padding: 13px 3.5em;
+  border: none;
+  margin-top: 2em;
+}
+.signuppage__content__forget__tag {
+  width: 70%;
+  margin-top: 2em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.signuppage__content__forget__tag a {
+  color: #808080;
+}
+.signuppage__content__forget__tag__span {
+  color: #000;
+  font-weight: bold;
 }
 @media (max-width: 1700px) {
   .discover__content__heading {

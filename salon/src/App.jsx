@@ -160,7 +160,12 @@ function App() {
             <button>Sign Up</button>
           </div>
           <div className="loginpage__content__forget__tag">
-            <a href="#">Don’t Have an Account? Sign Up</a>
+            <a href="#">
+              Don’t Have an Account?{" "}
+              <span className="loginpage__content__forget__tag__span">
+                Sign Up
+              </span>
+            </a>
           </div>
         </div>
         <div className="loginpage__right">
@@ -188,6 +193,51 @@ function App() {
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s.
+          </div>
+          <div className="signuppage__forms">
+            <div className="signuppage__content__form">
+              <input type="Text" name="Name" id="tect" placeholder="Name" />
+            </div>
+            <div className="signuppage__content__form">
+              <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+          </div>
+          <div className="signuppage__forms">
+            <div className="signuppage__content__form">
+              <input type="tel" name="Phone" id="phone" placeholder="Phone" />
+            </div>
+            <div className="signuppage__content__form">
+              <input type="text" name="text" id="text" placeholder="City" />
+            </div>
+          </div>
+          <div className="signuppage__forms">
+            <div className="signuppage__content__form">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+            </div>
+            <div className="signuppage__content__form">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Re-Enter Password"
+              />
+            </div>
+          </div>
+          <div className="signuppage__content__button">
+            <button>Sign Up</button>
+          </div>
+          <div className="signuppage__content__forget__tag">
+            <a href="#">
+              Don’t Have an Account?
+              <span className="signuppage__content__forget__tag__span">
+                Sign Up
+              </span>
+            </a>
           </div>
         </div>
       </section>
