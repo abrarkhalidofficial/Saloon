@@ -15,16 +15,38 @@ function SignIn() {
           </div>
         </div>
         <div className="loginpage__content">
-          <div className="loginpage__content__heading">Welcome Back</div>
-          <div className="loginpage__content__info">
+          <div
+            className="loginpage__content__heading"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            Welcome Back
+          </div>
+          <div
+            className="loginpage__content__info"
+            data-aos="fade-up"
+            data-aos-delay="70"
+            data-aos-duration="1500"
+          >
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s.
           </div>
-          <div className="loginpage__content__form">
+          <div
+            className="loginpage__content__form"
+            data-aos="fade-up"
+            data-aos-delay="80"
+            data-aos-duration="1600"
+          >
             <input type="email" name="email" id="email" placeholder="Email" />
           </div>
-          <div className="loginpage__content__form">
+          <div
+            className="loginpage__content__form"
+            data-aos="fade-up"
+            data-aos-delay="90"
+            data-aos-duration="1700"
+          >
             <input
               type="password"
               name="text"
@@ -32,10 +54,20 @@ function SignIn() {
               placeholder="Password"
             />
           </div>
-          <div className="loginpage__content__button">
+          <div
+            className="loginpage__content__button"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1800"
+          >
             <button>Sign Up</button>
           </div>
-          <div className="loginpage__content__forget__tag">
+          <div
+            className="loginpage__content__forget__tag"
+            data-aos="fade-up"
+            data-aos-delay="110"
+            data-aos-duration="1900"
+          >
             <Link to="/login" href="#">
               Don’t Have an Account?{" "}
               <span className="loginpage__content__forget__tag__span">
@@ -45,7 +77,12 @@ function SignIn() {
           </div>
         </div>
         <div className="loginpage__right">
-          <div className="loginpage__right__img">
+          <div
+            className="loginpage__right__img"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
             <img src={loginright} alt="loginright" />
           </div>
         </div>

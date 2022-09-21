@@ -97,20 +97,40 @@ function Home() {
           </div>
         </div>
         <div className="discover__content">
-          <div className="discover__content__img">
+          <div
+            className="discover__content__img"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
             <img src={discovercontent} alt="discover__content" />
           </div>
           <div className="discover__content__heading__and__info">
-            <div className="discover__content__heading">
+            <div
+              className="discover__content__heading"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
               Discover the Gorgeous Shine Within Us
             </div>
-            <div className="discover__content__info">
+            <div
+              className="discover__content__info"
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="1500"
+            >
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book.
             </div>
-            <div className="discover__content__button">
+            <div
+              className="discover__content__button"
+              data-aos="fade-up"
+              data-aos-delay="80"
+              data-aos-duration="1600"
+            >
               <a href="#">Book Your Appointmnet</a>
             </div>
           </div>
@@ -121,16 +141,36 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="products">
-        <div className="products___heading">
+      <section
+        className="products"
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+      >
+        <div
+          className="products___heading"
+          data-aos="fade-up"
+          data-aos-delay="80"
+          data-aos-duration="1000"
+        >
           We Provide a Full Range of Services
         </div>
-        <div className="products__all__content">
-          <div className="products___left">
+        <div
+          className="products__all__content"
+          data-aos="fade-up"
+          data-aos-delay="70"
+          data-aos-duration="800"
+        >
+          <div>
             <div className="products___left__img">
               <img src={productsleft} alt="products___left" />
             </div>
-            <div className="products__all__button">
+            <div
+              className="products__all__button"
+              data-aos="fade-up"
+              data-aos-delay="90"
+              data-aos-duration="1500"
+            >
               {list.map((item) => (
                 <div className="product__button">
                   <input
@@ -162,20 +202,47 @@ function Home() {
             </div>
           </div>
           <div className="products___right">
-            <div className="products___right__img">
+            <div
+              className="products___right__img"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
               <img src={selectedItem?.image} alt="products___right" />
             </div>
             <div className="products___right___heading__info">
-              <div className="products___right___heading">
+              <div
+                className="products___right___heading"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
                 {selectedItem?.name}
               </div>
-              <div className="products___right___heading__short">
+              <div
+                className="products___right___heading__short"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
                 {selectedItem?.name}
               </div>
-              <div className="products___right___info">
+              <div
+                className="products___right___info"
+                data-aos="fade-up"
+                data-aos-delay="70"
+                data-aos-duration="1500"
+              >
                 {selectedItem?.description}
               </div>
-              <div className="products___right___button">Book Now</div>
+              <div
+                className="products___right___button"
+                data-aos="fade-up"
+                data-aos-delay="80"
+                data-aos-duration="1600"
+              >
+                Book Now
+              </div>
             </div>
           </div>
         </div>
@@ -189,16 +256,31 @@ function Home() {
 
         <div className="atmosphere__content">
           <div className="atmosphere__content__heading__info">
-            <div className="atmosphere__content__heading">
+            <div
+              className="atmosphere__content__heading"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
               An Atmosphere <br /> of serenity & Comfort
             </div>
-            <div className="atmosphere__content__info">
+            <div
+              className="atmosphere__content__info"
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="1500"
+            >
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500
             </div>
           </div>
-          <div className="atmosphere__content__img">
+          <div
+            className="atmosphere__content__img"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
             <img src={atmospherecontent} alt="atmospherecontent" />
           </div>
         </div>
@@ -210,19 +292,41 @@ function Home() {
       </section>
       <section className="service">
         <div className="service__left">
-          <div className="service__left__img">
+          <div
+            className="service__left__img"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
             <img src={service} alt="" />
           </div>
         </div>
         <div className="service__right">
-          <div className="service__right__heading">About Saloon Services</div>
-          <div className="service__right__info">
+          <div
+            className="service__right__heading"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            About Saloon Services
+          </div>
+          <div
+            className="service__right__info"
+            data-aos="fade-up"
+            data-aos-delay="70"
+            data-aos-duration="1500"
+          >
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.
           </div>
-          <div className="service__right__button">
+          <div
+            className="service__right__button"
+            data-aos="fade-up"
+            data-aos-delay="80"
+            data-aos-duration="1600"
+          >
             <button>Learn More</button>
           </div>
         </div>

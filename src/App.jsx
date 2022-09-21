@@ -1,5 +1,6 @@
 import { useState } from "react";
-import "./App.scss";
+// import "./App.scss";
+import AOS from "aos";
 import { Route, Routes } from "react-router-dom";
 import Home from "./screen/Home";
 import JoinNow from "./screen/JoinNow";
@@ -8,7 +9,7 @@ import Footer from "./components/Footer.jsx";
 import SignIn from "./screen/SignIn";
 function App() {
   const [count, setCount] = useState(0);
-
+  AOS.init();
   return (
     <>
       <Header />
