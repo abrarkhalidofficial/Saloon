@@ -63,7 +63,7 @@ body::-webkit-scrollbar-track {
   padding: 0 1em;
   height: 38px;
   font-size: 18px;
-  color: #423636;
+  color: #000;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -71,12 +71,12 @@ body::-webkit-scrollbar-track {
 }
 .header__content__nav__link:hover {
   transition: 300ms ease-in-out;
-  color: #042a39;
+  color: #6fa66b;
 }
-.header__content__nav .active {
-  transition: 300ms ease-in-out;
-  color: #042a39;
-}
+// .header__content__nav:hover {
+//   transition: 300ms ease-in-out;
+//   color: #6fa66b;
+// }
 .header__content__nav .header__content__cta__button {
   display: none;
 }
@@ -88,7 +88,7 @@ body::-webkit-scrollbar-track {
 .header__content__cta__button {
   height: 38px;
   padding: 0 2em;
-  background-color: #000000;
+  background-color: #000;
   border: none;
   border-radius: 5px;
   margin-left: 1em;
@@ -102,7 +102,7 @@ body::-webkit-scrollbar-track {
 }
 .header__content__cta__button:hover {
   transition: 300ms ease-in-out;
-  background-color: #000000;
+  background-color: #345c2e;
 }
 //.header {
 //  width: 100%;
@@ -150,8 +150,8 @@ body::-webkit-scrollbar-track {
 .discover__Section {
   width: 100%;
   display: flex;
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 6em;
+  padding-bottom: 13em;
   max-width: 1920px;
   margin: 0 auto;
 }
@@ -183,19 +183,22 @@ body::-webkit-scrollbar-track {
   font-family: "El Messiri", sans-serif;
   font-weight: 500;
   color: #000;
+  line-height: 1.2;
 }
 
 .discover__content__info {
   font-size: 16px;
   color: #808080;
-  width: 65%;
+  width: 52%;
+  padding-top: 1em;
 }
 .discover__content__heading__and__info {
-  padding-top: 5em;
+  padding-left: 2em;
+  padding-top: 6em;
 }
 
 .discover__content__button {
-  padding-top: 2em;
+  padding-top: 3em;
 }
 .discover__content__button a {
   padding: 10px;
@@ -209,7 +212,8 @@ body::-webkit-scrollbar-track {
   cursor: pointer;
 }
 .discover__content__button a:hover {
-  background-color: #000;
+  transition: 300ms ease-in-out;
+  background-color: #345c2e;
 }
 .atmosphere__section {
   display: flex;
@@ -238,7 +242,7 @@ body::-webkit-scrollbar-track {
   width: 12%;
 }
 .atmosphere__content__heading__info {
-  padding-top: 3em;
+  padding-top: 5em;
 }
 .atmosphere__content {
   display: flex;
@@ -259,25 +263,27 @@ body::-webkit-scrollbar-track {
   /* margin-right: 46em; */
 }
 .atmosphere__content__heading {
-  width: 50%;
-  font-size: 50px;
+  width: 60%;
+  font-size: 56px;
   font-family: "El Messiri", sans-serif;
-  font-weight: 500;
-  color: #ffff;
+  font-weight: 400;
+  color: white;
+  line-height: 1.2;
 }
 
 .atmosphere__content__info {
-  font-size: 16px;
-  color: #ffff;
-  width: 40%;
+  padding-top: 8px;
+  font-size: 19px;
+  color: white;
+  width: 34%;
 }
 .service {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   max-width: 1920px;
   margin: 0 auto;
   margin-top: 10em;
@@ -299,6 +305,7 @@ body::-webkit-scrollbar-track {
   font-family: "El Messiri", sans-serif;
   font-weight: 500;
   color: #000;
+  line-height: 1.2;
 }
 
 .service__right__info {
@@ -306,6 +313,8 @@ body::-webkit-scrollbar-track {
   color: #808080;
   width: 60%;
   padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .service__right__button button {
@@ -317,9 +326,12 @@ body::-webkit-scrollbar-track {
   padding: 13px 35px;
   border: none;
   margin-top: 1em;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
 }
 .service__right__button button:hover {
-  background-color: #000;
+  background-color: #345c2e;
+  transition: 300ms ease-in-out;
 }
 
 .footer {
@@ -412,7 +424,7 @@ body::-webkit-scrollbar-track {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 5em;
+  padding-top: 3em;
   padding-bottom: 5em;
   max-width: 1920px;
   margin: 0 auto;
@@ -480,7 +492,7 @@ body::-webkit-scrollbar-track {
   margin-top: 10px;
 }
 .loginpage__right__img img {
-  height: 600px;
+  height: 650px;
 }
 .loginpage__content__forget__tag {
   width: 80%;
@@ -572,7 +584,7 @@ body::-webkit-scrollbar-track {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top: 210m;
+  // padding-top: 210m;
 }
 .signuppage__content__button button {
   font-size: 18px;
@@ -598,6 +610,119 @@ body::-webkit-scrollbar-track {
 .signuppage__content__forget__tag__span {
   color: #000;
   font-weight: bold;
+}
+.products {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5em;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+}
+.products___heading {
+  font-size: 50px;
+  font-family: "El Messiri", sans-serif;
+  font-weight: 500;
+  color: #000;
+  padding-left: 13px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.products__all__content {
+  display: flex;
+  padding-top: 5em;
+  width: 100%;
+  justify-content: space-between;
+}
+.products___left__img img {
+  height: 600px;
+}
+.products___right__img img {
+  height: 500px;
+}
+.products___left {
+  width: 45%;
+}
+.products___right {
+  width: 55%;
+  display: flex;
+}
+
+.products__all__button {
+  display: inline-grid;
+  position: absolute;
+  top: 22%;
+  left: 20%;
+}
+.product__button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  padding: 8px;
+  text-align: left;
+  cursor: pointer;
+  color: #808080;
+  position: relative;
+  margin-left: 1em;
+}
+.product__button:hover {
+  color: #4c7346;
+  font-weight: bold;
+}
+.product__button::after {
+  display: none;
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: -1em;
+  width: 10px;
+  height: 10px;
+  background-color: #4c7346;
+  border-radius: 10px;
+}
+.product__button:hover::after {
+  display: flex;
+}
+
+.products___right___heading {
+  font-size: 180px;
+  font-family: "El Messiri", sans-serif;
+  font-weight: 500;
+  color: #eaeaea;
+  padding-left: 13px;
+  line-height: 1%;
+  display: flex;
+  margin-top: 1em;
+}
+.products___right___info {
+  font-size: 18px;
+  color: #808080;
+  width: 85%;
+  padding: 1em;
+}
+.products___right___button {
+  margin-top: 1em;
+  // padding-left: 1.5em;s
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  color: white;
+  background-color: #6fa66b;
+  padding: 13px;
+  border: none;
+  margin-top: 10px;
+  width: 30%;
+  text-align: center;
+  margin-left: 1em;
+}
+.products___right___heading__short {
+  font-weight: bolder;
+  font-size: 50px;
+  color: #000;
+  font-family: "El Messiri", sans-serif;
+  margin-left: 15px;
 }
 @media (max-width: 1700px) {
   .discover__content__heading {
@@ -626,7 +751,11 @@ body::-webkit-scrollbar-track {
     width: 95%;
   }
 }
-
+@media (max-width: 1360px) {
+  .discover__content__heading {
+    font-size: 45px;
+  }
+}
 @media (max-width: 1000px) {
   .header__content__menu {
     display: flex;

@@ -6,12 +6,15 @@ import atmosphereleft from "../assets/atmosphere-left.png";
 import atmosphereright from "../assets/atmosphere-right.png";
 import atmospherecontent from "../assets/atmosphere-content.png";
 import service from "../assets/services.png";
-import loginpageleft from "../assets/login-left.png";
-import loginright from "../assets/login-right.png";
-import signuppageleft from "../assets/signup-left.png";
-import signuppageright from "../assets/signup-right.png";
+import productsleft from "../assets/products-left.png";
+import productsright from "../assets/products-right.png";
 
 function Home() {
+  const list = [
+    {
+      name: "S",
+    },
+  ];
   return (
     <>
       <section className="discover__Section">
@@ -45,6 +48,49 @@ function Home() {
           </div>
         </div>
       </section>
+      <section className="products">
+        <div className="products___heading">
+          We Provide a Full Range of Services
+        </div>
+        <div className="products__all__content">
+          <div className="products___left">
+            <div className="products___left__img">
+              <img src={productsleft} alt="products___left" />
+            </div>
+            <div className="products__all__button">
+              <button className="product__button ">Sauna</button>
+              <button className="product__button">Whirlpool</button>
+              <button className="product__button">Jet bath</button>
+              <button className="product__button">Steam room</button>
+              <button className="product__button">Massage</button>
+              <button className="product__button">Mud bath</button>
+              <button className="product__button">Salt scrub</button>
+              <button className="product__button">Seaweed body wraps</button>
+              <button className="product__button">
+                Clay or herbal body masks
+              </button>
+              <button className="product__button">Reflexology </button>
+              <button className="product__button">Waxing.</button>
+            </div>
+          </div>
+          <div className="products___right">
+            <div className="products___right__img">
+              <img src={productsright} alt="products___right" />
+            </div>
+            <div className="products___right___heading__info">
+              <div className="products___right___heading">Sauna</div>
+              <div className="products___right___heading__short">Sauna</div>
+              <div className="products___right___info">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </div>
+              <div className="products___right___button">Book Now</div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="atmosphere__section">
         <div className="atmosphere__left">
           <div className="atmosphere__left__img">
@@ -55,7 +101,7 @@ function Home() {
         <div className="atmosphere__content">
           <div className="atmosphere__content__heading__info">
             <div className="atmosphere__content__heading">
-              An Atmosphere of serenity & Comfort
+              An Atmosphere <br /> of serenity & Comfort
             </div>
             <div className="atmosphere__content__info">
               Lorem Ipsum is simply dummy text of the printing and typesetting

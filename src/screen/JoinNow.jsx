@@ -17,7 +17,7 @@ function JoinNow() {
         <div className="signuppage__right">
           <div className="signuppage__right__heading__img">
             <div className="signuppage__right__heading">
-              Be a part of Saloon Family
+              Be a part of <br /> Saloon Family
             </div>
             <div className="signuppage__right__img">
               <img src={signuppageright} alt="signupright" />
