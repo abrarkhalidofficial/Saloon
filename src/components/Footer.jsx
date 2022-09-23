@@ -11,7 +11,7 @@ function Footer() {
         data-aos-duration="1000"
       >
         <svg
-          width="364"
+          width="320"
           height="31"
           viewBox="0 0 364 31"
           fill="none"

@@ -7,6 +7,9 @@
   // -moz-user-select: none;
   // user-select: none;
 }
+html {
+  overflow-x: hidden;
+}
 // :root {
 //   overflow-x: hidden;
 // }
@@ -103,11 +106,16 @@ body::-webkit-scrollbar-track {
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
+  border: 1px solid #6fa66b;
   transition: 300ms ease-in-out;
+  font-weight: bold;
 }
 .header__content__cta__button:hover {
   transition: 300ms ease-in-out;
-  background-color: #345c2e;
+  background-color: #fff;
+  color: rgb(39, 39, 39) !important;
+  border: 1px solid #6fa66b;
+  font-weight: bold;
 }
 //.header {
 //  width: 100%;
@@ -215,10 +223,14 @@ body::-webkit-scrollbar-track {
   padding: 12px 40px;
   border: none;
   cursor: pointer;
+  border: 1px solid #fff;
+  transition: 300ms ease-in-out;
 }
 .discover__content__button a:hover {
   transition: 300ms ease-in-out;
-  background-color: #345c2e;
+  background-color: #fff;
+  color: #6fa66b;
+  border: 1px solid #6fa66b;
 }
 .atmosphere__section {
   display: flex;
@@ -333,10 +345,13 @@ body::-webkit-scrollbar-track {
   margin-top: 1em;
   cursor: pointer;
   transition: 300ms ease-in-out;
+  border: 1px solid #6fa66b;
 }
 .service__right__button button:hover {
-  background-color: #345c2e;
   transition: 300ms ease-in-out;
+  background-color: #fff;
+  color: #6fa66b;
+  border: 1px solid #6fa66b;
 }
 
 .footer {
@@ -493,9 +508,17 @@ body::-webkit-scrollbar-track {
   color: white;
   background-color: #6fa66b;
   padding: 13px 3.5em;
-  border: none;
+  border: 1px solid #6fa66b;
   margin-top: 10px;
+  cursor: pointer;
 }
+.loginpage__content__button button:hover {
+  transition: 300ms ease-in-out;
+  background-color: #fff;
+  color: #6fa66b;
+  border: 1px solid #6fa66b;
+}
+
 .loginpage__right__img img {
   height: 650px;
 }
@@ -600,7 +623,18 @@ body::-webkit-scrollbar-track {
   padding: 13px 3.5em;
   border: none;
   margin-top: 2em;
+  transition: 300ms ease-in-out;
+  border: 1px solid #6fa66b;
+  cursor: pointer;
 }
+
+.signuppage__content__button button:hover {
+  transition: 300ms ease-in-out;
+  background-color: #fff;
+  color: #6fa66b;
+  border: 1px solid #6fa66b;
+}
+
 .signuppage__content__forget__tag {
   width: 55%;
   margin-top: 2em;
@@ -739,6 +773,14 @@ body::-webkit-scrollbar-track {
   width: 30%;
   text-align: center;
   margin-left: 1em;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+}
+.products___right___button:hover {
+  transition: 300ms ease-in-out;
+  background-color: #fff;
+  color: #6fa66b;
+  border: 1px solid #6fa66b;
 }
 .products___right___heading__short {
   font-weight: bolder;
@@ -1408,7 +1450,7 @@ body::-webkit-scrollbar-track {
     height: 380px;
   }
   .service__left__img img {
-    height: 290px;
+    height: 270px;
   }
   .service {
     margin-top: 20em;
