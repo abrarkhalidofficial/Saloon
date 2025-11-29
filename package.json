@@ -16,7 +16,7 @@
     "react-dom": "^18.3.1",
     "react-feather": "^2.0.10",
     "react-router-dom": "^6.30.2",
-    "sass": "^1.94.1"
+    "sass": "^1.94.2"
   },
   "devDependencies": {
     "@types/react": "^18.3.27",
